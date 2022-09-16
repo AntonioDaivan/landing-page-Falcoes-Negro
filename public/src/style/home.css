@@ -1,0 +1,85 @@
+@import url('./index.css');
+
+section.home-page{
+    height: 70vh;
+    width: 100%;
+    position: relative;
+    padding: 0 30px;
+}
+
+.content-home-page{
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    row-gap: 30px;
+}
+
+.home-page div.title{
+    color: var(--clr--principal);
+    font-size: 4rem;
+}
+
+.home-page .description{
+    color: var(--clr-text);
+    width: 400px;
+}
+
+div.buttons{
+    display: flex;
+    column-gap: 10px;
+}
+
+button.btn{
+    display: grid;
+    place-items: center;
+    position: relative;
+    width: 130px;
+    height: 45px;
+    border-radius: 30px;
+    background-color: var(--clr--principal);
+    border: none;
+}
+
+.btn:hover{
+    transition: all .1s ease;
+    box-shadow: none;
+    transform: translateX(1px) translateY(1px);
+    background-color: var(--clr--hover);
+}
+
+.midias-sociais{
+    display: flex;
+    flex-direction: column;
+}
+
+.midias-sociais .title{
+    color: var(--clr--principal);
+    font-size: 400;
+}
+
+.midias-sociais .midia {
+    display: flex;
+    column-gap: 30px;
+}
+
+.midias-sociais img{
+    height: 20px;
+}
+
+.midias-sociais h1,
+.midias-sociais p{
+    color: var(--clr-text);
+}
+
+.midias-boxe,
+.midias-kick{
+    row-gap: 5px;
+    display: grid;
+    place-items: center;
+}
+
+.midias-boxe .icons,
+.midias-kick .icons{
+    display: flex;
+    column-gap: 10px;
+}
