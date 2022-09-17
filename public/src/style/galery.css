@@ -1,0 +1,38 @@
+section.section-galey{
+    height: 75vh;
+    width: 100%;
+}
+
+header.header-galery{
+    display: grid;
+    place-content: center;
+}
+
+.galery{
+    height: 100%;
+    width: 95%;
+    margin: auto;
+    border-radius: 15px;
+    background: var(--clr--glass);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+}
+
+.content-galery{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.fotos{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(auto);
+    row-gap: 30px;
+    place-items: center;
+    overflow-y: auto;
+}
+
+img.foto{
+    height: 200px;
+}

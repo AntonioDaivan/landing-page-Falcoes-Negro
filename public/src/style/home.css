@@ -1,7 +1,7 @@
 @import url('./index.css');
 
 section.home-page{
-    height: 70vh;
+    height: 75vh;
     width: 100%;
     position: relative;
     padding: 0 30px;
@@ -14,7 +14,7 @@ section.home-page{
     row-gap: 30px;
 }
 
-.home-page div.title{
+.home-page div.title h1{
     color: var(--clr--principal);
     font-size: 4rem;
 }

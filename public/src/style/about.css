@@ -1,0 +1,20 @@
+section.section-about{
+    height: 75vh;
+}
+
+.content-about{
+    height: 100%;
+    width: 95%;
+    margin: auto;
+    border-radius: 15px;
+    background: var(--clr--glass);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 100px;
+    row-gap: 30px;
+}
+
