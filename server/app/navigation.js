@@ -10,7 +10,6 @@ links.forEach(link => {
             .then(newHTML => content.innerHTML = newHTML)
 
         const paginaAtual = e.target.parentElement
-        console.log(e.target.parentElement)
         links.forEach(link => link.parentElement.classList.remove('pagina-atual') )
         paginaAtual.classList.add('pagina-atual')
     })
