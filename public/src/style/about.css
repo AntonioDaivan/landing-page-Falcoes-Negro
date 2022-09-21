@@ -18,3 +18,8 @@ section.section-about{
     row-gap: 30px;
 }
 
+@media (max-width: 600px) {
+    div.content-about{
+        overflow: scroll;
+    }
+}

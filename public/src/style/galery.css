@@ -36,3 +36,9 @@ div.fotos{
 img.foto{
     height: 200px;
 }
+
+@media (max-width: 600px) {
+    div.fotos{
+        grid-template-columns: repeat(2, 50%);
+    }
+}

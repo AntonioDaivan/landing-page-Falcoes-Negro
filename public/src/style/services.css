@@ -31,3 +31,10 @@ div.content-servicos{
     flex-direction: column;
     width: 70%;
 }
+
+@media (max-width: 600px) {
+    .servicos-boxe,
+    .servicos-kick{
+        overflow: hidden;
+    }
+}

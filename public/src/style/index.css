@@ -121,3 +121,13 @@ footer.footer {
     font-weight: 200;
     color: var(--clr--white);
 }
+
+@media (max-width: 600px) {
+    body{
+        background-size: auto;
+    }
+
+    nav.navbar ul{
+        width: 90%;
+    }
+}

@@ -1,7 +1,6 @@
 section.home-page{
     height: 75vh;
     width: 100%;
-    position: relative;
     padding: 0 30px;
 }
 
@@ -64,6 +63,7 @@ button.btn{
     height: 20px;
 }
 
+h3,
 .midias-sociais h1,
 .midias-sociais p{
     color: var(--clr-text);
@@ -80,4 +80,10 @@ button.btn{
 .midias-kick .icons{
     display: flex;
     column-gap: 10px;
+}
+
+@media (max-width: 600px) {
+    section.home-page{
+        height: 70vh;
+    }
 }
