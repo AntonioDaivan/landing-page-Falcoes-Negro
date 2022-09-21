@@ -11,7 +11,7 @@
 }
 
 :root {
-    --clr--black: #000;
+    --clr--black: rgb(4, 4, 4);
     --clr--principal: #FFC700;
     --clr-text: #FFDD64;
     --clr--hover: #C69A00;
