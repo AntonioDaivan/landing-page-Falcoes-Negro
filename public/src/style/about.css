@@ -21,5 +21,6 @@ section.section-about{
 @media (max-width: 600px) {
     div.content-about{
         overflow: scroll;
+        padding: 30px 50px;
     }
 }

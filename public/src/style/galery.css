@@ -31,14 +31,26 @@ div.fotos{
     row-gap: 30px;
     place-items: center;
     overflow-y: auto;
+    padding: 25px 10px;
 }
 
 img.foto{
-    height: 200px;
+    width: 90%;
+    height: auto;
+    border-radius: 5px;
+    filter: drop-shadow(0px 0px 5px var(--clr--principal));
 }
 
 @media (max-width: 600px) {
     div.fotos{
         grid-template-columns: repeat(2, 50%);
+        padding: 10px;
+    }
+
+    img.foto{
+        width: 90%;
+        height: auto;
+        border-radius: 5px;
+        filter: drop-shadow(0px 0px 5px var(--clr--principal));
     }
 }
