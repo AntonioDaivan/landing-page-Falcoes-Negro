@@ -1,10 +1,10 @@
 import styled from "styled-components";
 
 const Nav = styled.nav`
+    align-self: center;
     display: flex;
     justify-content: right;
     position: relative;
-    top: 5vh;
 
     ul{
         position: relative;

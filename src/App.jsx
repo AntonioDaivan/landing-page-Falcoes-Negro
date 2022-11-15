@@ -1,9 +1,9 @@
 import Globals from "./globals/globals"
-import Navbar from "./components/Navbar/Navbar"
-import Router from "./Routes/Routes"
-import { BrowserRouter } from "react-router-dom"
 import './App.css'
-// import Footer from "./components/Footer/Footer"
+import { Navbar } from "./components/Navbar"
+import { BrowserRouter } from "react-router-dom"
+import Router from "./Routes/Router"
+import { Footer } from "./components/Footer/Footer"
 
 function App() {
   return (
@@ -12,6 +12,7 @@ function App() {
         <Globals />
         <Navbar />
         <Router />
+        <Footer />
       </div>
     </BrowserRouter>
   )

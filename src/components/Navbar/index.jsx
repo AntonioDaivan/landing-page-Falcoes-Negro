@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom"
 import Nav from "./styled"
 
-const Navbar = _ => {
+export const Navbar = _ => {
     return(
         <Nav>
             <ul>
                 <li className="pagina-atual">
-                    <Link to="/Home">Home</Link>
+                    <Link to="/">Home</Link>
                 </li>
                 <li>
                     <Link to="/About">Sobre</Link>
@@ -21,5 +21,3 @@ const Navbar = _ => {
         </Nav>
     )
 }
-
-export default Navbar

@@ -1,5 +1,5 @@
 div.app{
     height: 100vh;
     display: grid;
-    grid-template-rows: 10vh 1fr 10vh;
+    grid-template-rows: 20vh 70vh 10vh;
 }

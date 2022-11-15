@@ -1,6 +1,6 @@
 import { Section, DivTitle, DivDescription, DivButtons, DivMidiasSociais, ContentHome } from './styled'
 
-const HomePage = _ => {
+export const HomePage = _ => {
     return (
         <Section>
             <ContentHome>
@@ -40,5 +40,3 @@ const HomePage = _ => {
         </Section>
     )
 }
-
-export default HomePage
