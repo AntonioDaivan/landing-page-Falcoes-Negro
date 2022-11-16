@@ -5,7 +5,7 @@ export const Navbar = _ => {
     return(
         <Nav>
             <ul>
-                <li className="pagina-atual">
+                <li>
                     <Link to="/">Home</Link>
                 </li>
                 <li>

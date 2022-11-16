@@ -25,15 +25,16 @@ export default createGlobalStyle`
         height: 100vh;
         width: 100%;
         font-family: 'Poppins', sans-serif;
-        background-image: url('src/assets/imgs/fundo falcões mobile.jpg');
+        background-image: url('src/assets/imgs/fundo.jpg');
         background-repeat: no-repeat;
         background-attachment: fixed;
-        background-size: contain;
-        background-position: bottom right;
+        background-size: cover;
+        background-position: top center;
+        backdrop-filter: blur(2px);
         background-color: var(--clr--black);
 
-        @media (min-width: 480px) {
-            background-image: url('src/assets/imgs/fundo falcões.jpg');
+        @media (min-width: 565px) {
+            /* background-image: url('src/assets/imgs/fundo falcões.jpg'); */
         }
     }
 

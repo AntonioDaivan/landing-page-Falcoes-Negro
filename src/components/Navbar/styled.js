@@ -31,6 +31,8 @@ const Nav = styled.nav`
             place-items: center;
             border-radius: 10px;
             position: relative;
+            font-size: 1.2rem;
+            font-weight: 600;
 
             ::after{
                 content: '';
