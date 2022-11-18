@@ -1,15 +1,11 @@
-import React, { useState, useEffect} from "react";
-
-const ImgsGalery = _ => {
-    const [imagens, setImagens] = useState([]);
-
-    useEffect(() => {
-        fetch('../../../instagram.json')
-            .then(res => res.json())
-            .then(res => setImagens(res))
-    }, [])
-
-    return <ImgsGalery>{imagens}</ImgsGalery>
+export const ReptileList= _ => {
+    const reptiles = ["alligator", "snake", "lizard"];
+  
+    return (
+      <ol>
+        {reptiles.map((reptile) => (
+          <li>{reptile}</li>
+        ))}
+      </ol>
+    );
 }
-
-export default ImgsGalery
