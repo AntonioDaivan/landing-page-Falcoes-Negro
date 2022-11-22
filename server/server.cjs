@@ -2,7 +2,7 @@ const puppeteer = require('puppeteer');
 const fs = require('fs');
 
 (async () => {
-    const browser = await puppeteer.launch();
+    const browser = await puppeteer.launch( { headless: false } );
     const page = await browser.newPage();
     await page.goto('https://instagram.com/falcoes_negro')
 
@@ -10,8 +10,9 @@ const fs = require('fs');
         const nodeList = document.querySelectorAll('article img')
         const imgArray = [...nodeList]
 
-        const imgList = imgArray.map( ({src}) => ({
-            src
+        const imgList = imgArray.map( (img) => ({
+            src: img.src,
+            alt: img.alt
         }))
 
         return imgList
@@ -23,5 +24,5 @@ const fs = require('fs');
         console.log('Foi!!!')
     })
 
-    await browser.close();
+    // await browser.close();
 })()

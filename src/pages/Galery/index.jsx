@@ -1,23 +1,20 @@
-import { ReptileList } from "../../components/Galery/Imagens"
-import { DivGalery, SectionGalery } from "./styled"
+import { DivGalery, ImgBox, SectionGalery } from "./styled"
+import { useEffect, useState } from "react"
 
 export const Galery = _ => {
 
-    fetch('../../../instagram.json')
-        .then(res => res.json())
-        .then(res => RenderGalery(res))
-        // .then(res => res.forEach(imagem => array2.push(imagem)))
-        // .then(data => array.push(data))
+    const [ links, setLinks ] = useState([])
 
-    function RenderGalery(array){
-        console.log('chegou aqui')
-        console.log(array)
-        return(
-            <div>
-                {array.map(imagem => <img key={imagem.src} src={imagem.src} />)}
-            </div>
-        )
-    }
+    useEffect(() => {
+        async function gerarImgs() {
+            const dados = await fetch('../../instagram.json')
+            const json = await dados.json()
+            const urls = json.map((link) => link)
+            setLinks(urls)
+        }
+
+        gerarImgs()
+    }, [])
 
     return (
         <SectionGalery>
@@ -27,7 +24,12 @@ export const Galery = _ => {
                     <h1>Galeria Falcões</h1>
                 </header>
                 <div>
-                    <ReptileList />
+                    {links.map((link) => (
+                        <ImgBox>
+                            <img crossOrigin="anonymous" key={link.src} src={link.src}/>
+                            <label htmlFor={link.src}>{link.alt}</label>
+                        </ImgBox>
+                    ))}
                 </div>
             </DivGalery>
         </SectionGalery>
