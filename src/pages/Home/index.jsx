@@ -15,8 +15,8 @@ export const HomePage = _ => {
                     aliquip ex ea commodo consequat.
                 </DivDescription>
                 <DivButtons>
-                    <button><Link to="/Services">Juntar-se</Link></button>
-                    <button><Link to="/About">Saiba mais</Link></button>
+                    <Link to="/Services"><button>Juntar-se</button></Link>
+                    <Link to="/About"><button>Saiba mais</button></Link>
                 </DivButtons>
                 <DivMidiasSociais>
                     <p>Nossas redes sociais.</p>
@@ -24,13 +24,13 @@ export const HomePage = _ => {
                         <div>
                             <p>Kickboxing</p>
                             <div>
-                                <a href="https://www.instagram.com/falcoes_negro/"><img src="src\assets\imgs\icons\instagram.png" alt="Logo instagram" /></a>
+                                <a href="https://www.instagram.com/falcoes_negro/" target='_blank'><img src="src\assets\imgs\icons\instagram.png" alt="Logo instagram" /></a>
                             </div>
                         </div>
                         <div>
                             <p>Boxe</p>
                             <div>
-                                <a href="https://www.instagram.com/efnboxe/"><img src="src\assets\imgs\icons\instagram.png" alt="Logo instagram" /></a>
+                                <a href="https://www.instagram.com/efnboxe/" target='_blank'><img src="src\assets\imgs\icons\instagram.png" alt="Logo instagram" /></a>
                             </div>
                         </div>
                     </div>

@@ -43,6 +43,7 @@ const DivButtons = styled.div`
         border-radius: 30px;
         background-color: var(--clr--principal);
         border: none;
+        cursor: pointer;
 
         :hover{
             transition: all .1s ease;
@@ -60,6 +61,7 @@ const DivMidiasSociais = styled.div`
     p{
         color: var(--clr--principal);
         font-size: 400;
+        margin-bottom: 0.3125rem;
     }
 
     img{

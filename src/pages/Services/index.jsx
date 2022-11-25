@@ -35,6 +35,7 @@ export const Services = _ => {
                                     <td>Quarta</td>
                                     <td>Quinta</td>
                                     <td>Sexta</td>
+                                    <td>Sábado</td>
                                 </tr>
                             </thead>
                             <tbody>
@@ -44,15 +45,18 @@ export const Services = _ => {
                                     <td>00:00</td>
                                     <td>00:00</td>
                                     <td>00:00</td>
-                                </tr>
-                                <tr>
-                                    <td>00:00</td>
-                                    <td>00:00</td>
-                                    <td>00:00</td>
-                                    <td>00:00</td>
                                     <td>00:00</td>
                                 </tr>
                                 <tr>
+                                    <td>00:00</td>
+                                    <td>00:00</td>
+                                    <td>00:00</td>
+                                    <td>00:00</td>
+                                    <td>00:00</td>
+                                    <td>00:00</td>
+                                </tr>
+                                <tr>
+                                    <td>00:00</td>
                                     <td>00:00</td>
                                     <td>00:00</td>
                                     <td>00:00</td>
@@ -65,7 +69,7 @@ export const Services = _ => {
                     <div>
                         <h4>Contato</h4>
                         <div>
-                            <a href="#"><img src="src\assets\imgs\icons\whatsapp.png" alt="Logo whatsapp" /></a>
+                            <a href="https://wa.me/5571981637968?text=Olá,%20gostaria%20de%20saber%20sobre%20a%20disponibilidade%20de%20aulas%20de%20kickboxing" target='_blank'><img src="src\assets\imgs\icons\whatsapp.png" alt="Logo whatsapp" /></a>
                             <a href="https://www.instagram.com/falcoes_negro/" target='_blank'><img src="src\assets\imgs\icons\instagram.png" alt="Logo whatsapp" /></a>
                         </div>
                     </div>
@@ -100,6 +104,7 @@ export const Services = _ => {
                                     <td>Quarta</td>
                                     <td>Quinta</td>
                                     <td>Sexta</td>
+                                    <td>Sábado</td>
                                 </tr>
                             </thead>
                             <tbody>
@@ -109,15 +114,18 @@ export const Services = _ => {
                                     <td>00:00</td>
                                     <td>00:00</td>
                                     <td>00:00</td>
-                                </tr>
-                                <tr>
-                                    <td>00:00</td>
-                                    <td>00:00</td>
-                                    <td>00:00</td>
-                                    <td>00:00</td>
                                     <td>00:00</td>
                                 </tr>
                                 <tr>
+                                    <td>00:00</td>
+                                    <td>00:00</td>
+                                    <td>00:00</td>
+                                    <td>00:00</td>
+                                    <td>00:00</td>
+                                    <td>00:00</td>
+                                </tr>
+                                <tr>
+                                    <td>00:00</td>
                                     <td>00:00</td>
                                     <td>00:00</td>
                                     <td>00:00</td>
@@ -130,7 +138,7 @@ export const Services = _ => {
                     <div>
                         <h4>Contato</h4>
                         <div>
-                            <a href="#"><img src="src\assets\imgs\icons\whatsapp.png" alt="Logo whatsapp" /></a>
+                            <a href="https://wa.me/5571985091702?text=Olá,%20gostaria%20de%20saber%20sobre%20a%20disponibilidade%20de%20aulas%20de%20boxe" target='_blank'><img src="src\assets\imgs\icons\whatsapp.png" alt="Logo whatsapp" /></a>
                             <a href="https://www.instagram.com/efnboxe/" target='_blank'><img src="src\assets\imgs\icons\instagram.png" alt="Logo whatsapp" /></a>
                         </div>
                     </div>

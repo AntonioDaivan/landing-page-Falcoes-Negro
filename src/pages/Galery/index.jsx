@@ -26,7 +26,7 @@ export const Galery = _ => {
                 <div>
                     {links.map((link) => (
                         <ImgBox>
-                            <img crossOrigin="anonymous" key={link.src} src={link.src}/>
+                            <img crossOrigin="anonymous" key={link.src} src='src\data\imagem-temporaria.png'/>
                             <label htmlFor={link.src}>{link.alt}</label>
                         </ImgBox>
                     ))}

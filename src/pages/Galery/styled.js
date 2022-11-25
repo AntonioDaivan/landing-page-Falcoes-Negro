@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const SectionGalery = styled.section`
     height: 100%;
-    width: 100%;
+    width: 100vw;
 
     header{
         display: grid;
@@ -66,6 +66,7 @@ export const ImgBox = styled.div`
         width: 90%;
         overflow-x: hidden;
         flex-wrap: wrap;
+        font-size: .75rem;
 
         ::-webkit-scrollbar{
             background-color: transparent;
