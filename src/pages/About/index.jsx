@@ -4,7 +4,7 @@ export const About = _ => {
     return (
         <SectionAbout>
             <FundoDourado>
-                <h1>Em desenvolvimento...</h1>
+                <h1 className="em-desenvolvimento">Em desenvolvimento...</h1>
                 <h1>Um pouco da Falcões</h1>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore

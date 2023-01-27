@@ -30,12 +30,14 @@ export default createGlobalStyle`
         background-attachment: fixed;
         background-size: cover;
         background-position: top center;
-        backdrop-filter: blur(2px);
         background-color: var(--clr--black);
+    }
 
-        @media (min-width: 565px) {
-            /* background-image: url('src/assets/imgs/fundo falcões.jpg'); */
-        }
+    .em-desenvolvimento{
+        align-self: center;
+        color: var(--clr--principal);
+        text-transform: uppercase;
+        letter-spacing: .5rem;
     }
 
 `

@@ -54,6 +54,11 @@ const Nav = styled.nav`
             a{
                 z-index: 1;
             }
+
+        }
+
+        li.active::after{
+            width: 100%;
         }
     }
 `

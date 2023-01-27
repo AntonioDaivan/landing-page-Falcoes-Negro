@@ -10,15 +10,25 @@ const Section = styled.section`
 const ContentHome = styled.div`
     display: flex;
     flex-direction: column;
-    padding: 0 30px;
+    padding: 0 1.875rem;
     height: 80%;
-    row-gap: 30px;
+    row-gap: 1.875rem;
 `
 
 const DivTitle = styled.div`
+    display: flex;
+    flex-direction: column;
+    
     h1{
         color: var(--clr--principal);
-        font-size: 4rem;        
+        font-size: 4rem;
+        margin-block-start: 0;
+        margin-block-end: 0;
+    }
+
+    h4{
+        color: var(--clr--principal);
+        padding-left: 0.2rem;
     }
 `
 

@@ -2,11 +2,13 @@ import styled from "styled-components";
 
 export const SectionGalery = styled.section`
     height: 100%;
-    width: 100vw;
+    width: 100%;
 
     header{
         display: grid;
         place-content: center;
+        flex-wrap: wrap;
+        text-align: center;
     }
 `
 
@@ -21,28 +23,32 @@ export const DivGalery = styled.div`
     backdrop-filter: blur(5px);
 
     > div{
-        height: 95%;
+        height: 100%;
         width: 100%;
         display: grid;
-        grid-template-columns: repeat(2, 49%);
+        place-content: center;
+        grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(auto);
         border-radius: 15px;
-        row-gap: 30px;
+        gap: 30px 20px;
         place-items: center;
         overflow-y: auto;
-        padding:10px;
-        column-gap: 10px;  
+        padding: 20px;
 
         ::-webkit-scrollbar{
             background-color: transparent;
         }
 
-        @media (min-width: 468px) {
-            grid-template-columns: repeat(3, 32%);
+        @media (max-width: 390px) {
+            grid-template-columns: repeat(1, 1fr);
+        }
+
+        @media (min-width: 580px) {
+            grid-template-columns: repeat(3, 1fr);
         }
 
         @media (min-width: 712px) {
-            grid-template-columns: repeat(4, 24%);
+            grid-template-columns: repeat(4, 1fr);
         }
     }
 
@@ -62,7 +68,7 @@ export const ImgBox = styled.div`
 
     label{
         display: flex; 
-        height: 75px;
+        height: 50px;
         width: 90%;
         overflow-x: hidden;
         flex-wrap: wrap;

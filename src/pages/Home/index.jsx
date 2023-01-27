@@ -6,8 +6,10 @@ export const HomePage = _ => {
         <Section>
             <ContentHome>
                 <DivTitle>
-                    <h3>Em desenvolvimento...</h3>
+                    <h2 className='em-desenvolvimento' >Em desenvolvimento...</h2>
+                    <h4>Equipe</h4>
                     <h1>Falcões Negro</h1>
+                    <h4>Boxe e Kickboxing</h4>
                 </DivTitle>
                 <DivDescription>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore

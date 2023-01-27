@@ -6,7 +6,7 @@ export const Services = _ => {
         <SectionServices>
             <div>
                 <DivServices>
-                    <h4>Em desenvolvimento...</h4>
+                    <h4 className="em-desenvolvimento">Em desenvolvimento...</h4>
                     <h1>Kickboxing</h1>
                     <div>
                         <h4>Serviços</h4>
@@ -75,7 +75,7 @@ export const Services = _ => {
                     </div>
                 </DivServices>
                 <DivServices>
-                    <h4>Em desenvolvimento...</h4>
+                    <h4 className="em-desenvolvimento">Em desenvolvimento...</h4>
                     <h1>Boxe</h1>
                     <div>
                         <h4>Serviços</h4>
